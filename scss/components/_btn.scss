@@ -13,6 +13,8 @@
   transition-property: width, transform;
   transition-duration: 3s ;
   transition-timing-function: ease-in-out;
+  -webkit-animation: rotate-diagonal-bl 1s ease-in-out both;
+	        animation: rotate-diagonal-bl 1s ease-in-out both;
   &_hover{
     width: 600px;
   }
