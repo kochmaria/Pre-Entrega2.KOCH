@@ -1,0 +1,27 @@
+
+article h2 {
+        font-family: "comfortaa";
+        font-weight: bold;
+        src: url(../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+        color: black;
+        &_ p {/*alineado de texto
+          left, right, center, justify
+          */
+          text-align: left;
+          font-size: medium;
+          /*tamaño tipografico*/
+          font-size: 1.5rem;
+          /*peso tipografico*/
+          font-weight: bolder;
+          padding: 3px;
+          margin: 3px;
+      
+        }
+}
+.headline-multimedia {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    width: 100%;
+}
+

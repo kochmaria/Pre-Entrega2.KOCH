@@ -1,0 +1,29 @@
+
+
+article h3 {
+        font-family: "comfortaa", sans-serif;
+        font-weight: bolder;
+        &_ p { font-family: "comfortaa", sans-serif;
+          src: url(../fonts/Comfortaa.zip);
+          /*alineado de texto
+          left, right, center, justify
+          */
+          text-align: left;
+          font-size: center;
+          transition-property: transform;
+          transition-duration: 3s ;
+          transition-timing-function: ease-in-out;
+        &_ :hover {
+            opacity: 0.7 ; } 
+}}
+.video-informativo {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    margin: 2px;
+    padding: 2px;
+    transform: scale(1, 1);
+  }
+      

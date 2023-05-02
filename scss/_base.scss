@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  $color-primario: blue;
+  $color-secundario: white;
+  $fuente: "comfortaa";
+  
+  body {
+    font-family: "comfortaa", sans-serif;
+    src: url(../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+    font-size: 1.5rem;
+    background: radial-gradient(rgba(255, 255, 255, 0.553) 40%, rgba(169, 169, 239, 0.71) ) ;
+  }
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: $color-secundario;
+    border-top: 1px solid $color-secundario;
+    padding: 10px;
+    text-align: center;
+    display: none;
+    &_ a{
+      color: #333;
+    text-decoration: none;
+    border-bottom: 1px dotted #333;
+    transition: border-bottom 0.2s ease-in-out;
+  
+    }
+}
+.bg-azul {
+    background-color: #a4c3f0;
+}

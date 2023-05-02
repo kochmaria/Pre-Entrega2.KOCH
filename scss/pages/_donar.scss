@@ -1,0 +1,48 @@
+
+.form {
+        font-family: "comfortaa", sans-serif;
+        src: url(../fonts/Comfortaa.zip);
+        font-size: 20px;
+        /*"----cards article"*/
+         /*alineado de texto
+        left, right, center, justify
+        */
+        text-align: left;
+        font-size: center;
+         
+      
+   
+         }
+         &_ .card-icon { min-width: 40px;
+          height: 40px;
+          background-color: $color-primario;
+          border-radius: 90px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 3px;
+          padding: 2px;
+          font-size: 1.5rem;
+          color: $color-secundario;}
+          &_ .card-text{
+              font-size: 1.5rem;
+           padding: 0.5 rem;
+      
+          }
+          &_.icon-card{
+              display: flex;
+    }
+
+     
+          
+.button {
+        background-color: $color-primario;
+        border: none; /* Sin borde */
+        color: $color-secundario; /* Color de texto */
+        padding: 10px 20px; /* Espacio alrededor del texto */
+        display: block;
+        font-size: 20px;
+        margin: 8px 2px; /* Espacio entre botones */
+        cursor: pointer; /* Cursor al pasar el mouse */
+        border-radius: 5px; /* Radio de borde */
+}    
