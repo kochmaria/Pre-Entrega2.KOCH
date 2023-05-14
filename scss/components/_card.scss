@@ -1,43 +1,49 @@
 .form {
-    font-family: "comfortaa", sans-serif;
-    src: url(../fonts/Comfortaa.zip);
-    font-size: 20px;
-    /*"----cards article"*/
-     /*alineado de texto
+  font-family: "comfortaa", sans-serif;
+  src: url(../fonts/Comfortaa.zip);
+  font-size: 20px;
+  /*"----cards article"*/
+  /*alineado de texto
     left, right, center, justify
     */
-    text-align: left;
-    font-size: center;
-     
-  
-    &_ .caja-contacto{
-      /*position - posicion de un elemento
+  text-align: left;
+  font-size: center;
+
+
+  &_ .caja-contacto {
+    /*position - posicion de un elemento
     static, relative, absolute, sticky, fixed
   
     top, right, left, bottom*/
     position: relative;
-     }
-     &_ .card-icon { min-width: 40px;
-      height: 40px;
-      background-color: $color-primario;
-      border-radius: 90px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 3px;
-      padding: 2px;
-      font-size: 1.5rem;
-      color: $color-secundario;}
-      &_ .card-text{
-          font-size: 1.5rem;
-       padding: 0.5 rem;
-  
-      }
-      &_.icon-card{
-          display: flex;
-      }
-      &_ .numero{
-          /*position - posicion de un elemento
+  }
+
+  &_ .card-icon {
+    min-width: 40px;
+    height: 40px;
+    background-color: $color-primario;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    padding: 2px;
+    font-size: 1.5rem;
+    color: $color-secundario;
+  }
+
+  &_ .card-text {
+    font-size: 1.5rem;
+    padding: 0.5 rem;
+
+  }
+
+  &_.icon-card {
+    display: flex;
+  }
+
+  &_ .numero {
+    /*position - posicion de un elemento
     static, relative, absolute, sticky, fixed
   
     top, right, left, bottom*/
@@ -45,5 +51,5 @@
     left: 60px;
     bottom: 70px;
     background-color: $color-secundario;
-      }
   }
+}

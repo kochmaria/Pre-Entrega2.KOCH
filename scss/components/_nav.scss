@@ -1,18 +1,23 @@
-.navbar-brand{
-    nav ul,
-    nav ol {
-      list-style: none;
-    }
-     &_a {
-      text-decoration: none;
-    }
-     &_ .nav-link {
-      color: $color-primario;
-    }
-     &_ .navbar-brand {
-      color: $color-primario;
-    }
-      &_ :hover {
-      color: $color-secundario;
-    }
+.navbar-brand {
+
+  nav ul,
+  nav ol {
+    list-style: none;
+  }
+
+  &_a {
+    text-decoration: none;
+  }
+
+  &_ .nav-link {
+    color: $color-primario;
+  }
+
+  &_ .navbar-brand {
+    color: $color-primario;
+  }
+
+  &_ :hover {
+    color: $color-secundario;
+  }
 }

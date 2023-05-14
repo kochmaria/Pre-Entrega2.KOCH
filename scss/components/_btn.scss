@@ -1,21 +1,28 @@
 .button {
-    background-color: $color-primario;
-    border: none; /* Sin borde */
-    color: $color-secundario; /* Color de texto */
-    padding: 10px 20px; /* Espacio alrededor del texto */
-    display: block;
-    font-size: 20px;
-    margin: 8px 2px; /* Espacio entre botones */
-    cursor: pointer; /* Cursor al pasar el mouse */
-    border-radius: 5px; /* Radio de borde */
-    
-    transform: translate(50px, 50px);
+  background-color: $color-primario;
+  border: none;
+  /* Sin borde */
+  color: $color-secundario;
+  /* Color de texto */
+  padding: 10px 20px;
+  /* Espacio alrededor del texto */
+  display: block;
+  font-size: 20px;
+  margin: 8px 2px;
+  /* Espacio entre botones */
+  cursor: pointer;
+  /* Cursor al pasar el mouse */
+  border-radius: 5px;
+  /* Radio de borde */
+
+  transform: translate(50px, 50px);
   transition-property: width, transform;
-  transition-duration: 3s ;
+  transition-duration: 3s;
   transition-timing-function: ease-in-out;
   -webkit-animation: rotate-diagonal-bl 1s ease-in-out both;
-	        animation: rotate-diagonal-bl 1s ease-in-out both;
-  &_hover{
+  animation: rotate-diagonal-bl 1s ease-in-out both;
+
+  &_hover {
     width: 600px;
   }
-  }
+}

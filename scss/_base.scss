@@ -1,22 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  $color-primario: blue;
-  $color-secundario: white;
-  $fuente: "comfortaa";
-  
-  body {
-    font-family: "comfortaa", sans-serif;
-    src: url(../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
-    font-size: 1.5rem;
-    background: radial-gradient(rgba(255, 255, 255, 0.553) 40%, rgba(169, 169, 239, 0.71) ) ;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$color-primario: blue;
+$color-secundario: white;
+$fuente: "comfortaa";
+
+body {
+  font-family: "comfortaa", sans-serif;
+  src: url(../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+  font-size: 1.5rem;
+  background: radial-gradient(rgba(255, 255, 255, 0.553) 40%, rgba(169, 169, 239, 0.71));
+}
 
 
 
 .bg-azul {
-    background-color: #a4c3f0;
+  background-color: #a4c3f0;
 }

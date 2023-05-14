@@ -1,35 +1,35 @@
 .presentacion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /*position - posicion de un elemento
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*position - posicion de un elemento
     static, relative, absolute, sticky, fixed
   
     top, right, left, bottom*/
-    position: relative;
-    left: 60-xpx;
-  }
-  
-  
+  position: relative;
+  left: 60-xpx;
+}
+
+
 
 th {
-    font-family: "comfrontaa", sans-serif;
-    font-family: "comfortaa", sans-serif;
-    src: url(../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-.video-tres {
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}  
+  font-family: "comfrontaa", sans-serif;
+  font-family: "comfortaa", sans-serif;
+  src: url(../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.video-tres {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

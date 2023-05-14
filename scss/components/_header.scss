@@ -1,35 +1,35 @@
 .header h1 {
-    color: $color-primario;
-    font-family: "comfortaa", sans-serif;
-    src: url(../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
-    width: 100%;
-    font-size: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 150px;
-    width: 100%;
-    background-color: rgb(46, 46, 94);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-shadow: 20px 20px 12px ;
-  
-  }
-  
-  h1 {
-    height: 150px;
-    width: 100%;
-    background-color: rgb(46, 46, 94);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../img/pexels-blue-ox-studio-982230.jpg);
-    color: $color-secundario;
-    /*Repeticion de la imagen
+  color: $color-primario;
+  font-family: "comfortaa", sans-serif;
+  src: url(../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+  width: 100%;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 100%;
+  background-color: rgb(46, 46, 94);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 20px 20px 12px;
+
+}
+
+h1 {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(46, 46, 94);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/pexels-blue-ox-studio-982230.jpg);
+  color: $color-secundario;
+  /*Repeticion de la imagen
     no- repeat
     repeat
     repeat-x
@@ -37,6 +37,6 @@
     space - repite la imagen y rellena
     round
     */
-    background-repeat: repeat;
-    text-shadow: 15px 20px 14px rgb(255, 255, 255) ;
-  }
+  background-repeat: repeat;
+  text-shadow: 15px 20px 14px rgb(255, 255, 255);
+}
